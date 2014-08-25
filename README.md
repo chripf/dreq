@@ -22,19 +22,16 @@ Basic elements
     |- Metadata
       |- Release
       |- Sprint
-      |- Stakeholders
-    |- Testcases
+      |------------------------------------------> Stakeholders
+    |------------> Testcase                        |- Name
+                   |- Title                        |- Additional Info
+                   |- Prerequisites
+                   |- Automation Level (Full, Partially, Manual)
+                   |- Description
+                   |- Expected result
+                   |------> Execution Info
+                            |- For Release
+                            |- Tester
+                            |- Result
     
-    Testcase
-    |- Title
-    |- Prerequisites
-    |- Description
-    |- Expected result
-    |- Execution Info
-      |- For Release
-      |- Tester
-      |- Result
-    
-    Stakeholders
-    |- Name
-    |- Additional Info
+   
